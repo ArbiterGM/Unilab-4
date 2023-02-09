@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.current-page {
+  border-bottom: 2px solid black;
+}
+/* text */
+
+p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  font-size: 18px;
+  color: black;
+}
+
+.main-text {
+  text-align: center;
+  font-family: FiraGo;
+  font-weight: 500;
+  margin-top: 72px;
+  margin-bottom: 65px;
+}
+
+.prod-name {
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 26px;
+  margin-bottom: 18.48px;
+}
+
+.prod-desc {
+  margin-left: 26px;
+}
+.see-more {
+  font-family: FiraGO;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.heading-text {
+  font-family: "Andada Pro";
+  font-weight: 700;
+  font-size: 40px;
+  color: #7d0000;
+  margin-bottom: 119px;
+  text-align: center;
+  margin: 147px 0 144px 0;
+}
+
+.second-heading-text {
+  font-family: Andada Pro;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  color: #7d0000;
+  text-align: center;
+  margin: 134px 0 115px 0;
+}
+
+.contact-info {
+  color: #0b253e;
+  font-family: "Andada Pro";
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.bottom-contact {
+  margin-top: 34px;
+}
+
+#mail {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.description-text {
+  font-family: "Andada Pro";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 41px;
+}
+
+.blog-header {
+  margin: 47px 0 0 94px;
+  font-family: "FiraGO";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.blog-li {
+  font-family: "FiraGO";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.blog-li-marg {
+  margin-left: 65px;
+}
+
+.blog-title {
+  padding: 38px 0 32px 36px;
+  font-family: "FiraGO";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.blog-text {
+  font-family: "FiraGO";
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 17px;
+  color: #474747;
+  padding: 0 32px 12px 36px;
+}
+
+.user-name {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.user-status {
+  margin-top: 14px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  color: #546ccc;
+}
+
+.normal-info {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+
+.see-more {
+  font-family: FiraGO;
+}
+
+.p-header {
+  margin: 0 0 74px 221px;
+  text-align: center;
+  width: 135px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid #7d0000;
+}
+
+.bold-info {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+}
+/* navigation */
+.navigation-border {
+  border-bottom: 1px solid black;
+}
+
+li {
+  font-family: Poppins;
+  font-weight: 500;
+  display: inline;
+}
+ul {
+  margin: 25px 0;
+}
+
+.brand-logo {
+  margin-left: 126px;
+  margin-right: 270px;
+}
+
+.nav-li {
+  margin-right: 52px;
+}
+
+.last-li {
+  margin-right: 363px;
+}
+
+.user-logo {
+  margin-right: 126px;
+}
+
+/* products-section */
+.first-wrap {
+  margin-left: 126px;
+  display: inline-block;
+  height: 540px;
+  width: 334px;
+  text-align: right;
+}
+
+.wrap {
+  margin-left: 104px;
+  display: inline-block;
+  height: 540px;
+  width: 334px;
+  text-align: right;
+}
+
+.products {
+  text-align: left;
+  height: 487px;
+  width: 333px;
+  border: 1px solid black;
+}
+
+.prod-image {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.prod-description-div {
+  margin-top: 21px;
+}
+
+.btn {
+  text-align: right;
+  font-size: 15px;
+  padding: 0 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px 25px;
+  margin-top: 23px;
+}
+
+.full-description-ul {
+  margin: 62px 0 0 20px;
+}
+
+.full-description {
+  font-size: 14px;
+  text-align: left;
+  display: list-item;
+  line-height: 215%;
+}
+
+footer {
+  text-align: right;
+}
+
+.see-more-div {
+  margin: 39px 67px 61px 0;
+}
+
+/* about-us page */
+.contact-section {
+  text-align: center;
+}
+
+.contact-div {
+  display: inline-block;
+  width: 440px;
+  height: 98px;
+  text-align: left;
+  margin-left: 70px;
+}
+
+.contact-div-second {
+  display: inline-block;
+  width: 440px;
+  height: 98px;
+  text-align: left;
+  margin-left: 70px;
+}
+
+.map {
+  margin: 144px 0 193px 0;
+  text-align: center;
+}
+
+/* about-company page */
+.company-description {
+  margin: 0 59px 0 126px;
+}
+
+.description {
+  display: inline-block;
+  height: 323px;
+  width: 650px;
+  text-align: left;
+}
+
+.adress {
+  margin-top: 89px;
+  text-align: right;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tshirts-div {
+  position: absolute;
+  height: 333.33px;
+  left: 835px;
+  top: 453px;
+}
+
+.tshirts-image {
+  margin-bottom: 237px;
+}
+
+/* blog-page */
+.blog-nav {
+  margin-top: 93px;
+  text-align: center;
+}
+
+.blogs-with-cards {
+  margin-top: 68px;
+  text-align: left;
+}
+
+.blog-content {
+  border-radius: 0 14px 14px 0;
+  background-color: #e5ebe5;
+  height: 228px;
+  width: 918px;
+  display: inline-block;
+}
+
+.blog-image {
+  border-radius: 14px 0 0 14px;
+  margin: 0 22px 0 94px;
+  float: left;
+  display: inline;
+}
+
+.btn-div {
+  text-align: right;
+  margin: 14px 151px 0 0;
+}
+
+.blog-wrap {
+  margin-bottom: 63px;
+}
+
+/* profile-page */
+.user-info {
+  margin: 169px 0 96px 206px;
+  height: 170px;
+  width: 444px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.user-photo-div {
+  float: left;
+  display: inline;
+}
+
+.user-top-info {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.user-photo {
+  border-radius: 50%;
+}
+
+.bold-info-div {
+  margin: 0 144px 0 237px;
+  display: inline-block;
+}
+
+.normal-info-div {
+  display: inline-block;
+}
+
+.last-btn {
+  background-color: #87ac87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  margin: 0 200px 146px 0;
+}
